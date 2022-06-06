@@ -1,0 +1,82 @@
+.hero{
+    display: flex;
+    margin-bottom: 150px;
+  
+}
+.title__text{
+    font-size: 60px;
+
+}
+.hero__title{
+    margin: 110px;
+    margin-left: 170px;
+
+}
+.title__text2{
+    font-size: 60px;
+}
+.title__color{
+    color:rgb(41, 41, 207)
+
+
+}
+.hero__image{
+    margin-left: 60px;
+}
+.btn-hover{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.hero-img{
+    height: 600px;
+     width: 650px 
+
+}
+@media screen and (max-width:400px){
+    .hero__title{
+        margin-left:30px;
+
+    }
+    .title__text{
+        font-size:45px
+    }
+    .title__text2{
+        font-size:45px
+    }
+    .hero-img{
+        display:none
+    }
+    .hero__subtext{
+        font-size:15px
+    }
+}

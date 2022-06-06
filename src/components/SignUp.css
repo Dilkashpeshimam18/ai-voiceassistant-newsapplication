@@ -1,0 +1,53 @@
+.signUp-card{
+    display:flex;
+    height: 560px;
+    /* border:1px solid black; */
+    width:500px;
+    align-items:center;
+    margin-left: 35%;
+    margin-top:3%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    /* text-align: center; */
+}
+.signUp-form{
+    display: flex;
+    flex-direction: column;
+    padding:5px
+}
+.card-container{
+    margin-left:60px
+}
+.form__label{
+    margin-bottom:10px
+}
+.form__title{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    margin-left: 115px;
+
+}
+.form__input{
+    height:40px;
+    width:350px;
+    border-radius: 8px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border:none
+}
+
+.form-button{
+    margin-top:13px;
+    
+}
+.form-text{
+    font-size:35px
+}
+.form__bottom{
+    font-size:11px;
+}
+.form-bottom-container{
+    margin-left:180px
+}
+
